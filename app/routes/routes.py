@@ -10,7 +10,7 @@ blue_print = Blueprint('app',  __name__)
 #Ruta de inicio
 @blue_print.route('/', methods = ['GET'])
 def inicio():
-    return jsonify(respuesta = 'Rest aPI con Python y Mysql')
+    return jsonify(respuesta = 'Rest API Predict by Pedro Ramos, VERSION 1.0')
 
 
 #Ruta de registro de usurio
