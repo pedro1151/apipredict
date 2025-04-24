@@ -7,7 +7,7 @@ services:
     build:
       context: ./app
       dockerfile: Dockerfile
-    image: flask-app:lastest
+    image: flask-app:latest
     environment:
       FLASK_ENV: development
       DB_USUARIO: root
